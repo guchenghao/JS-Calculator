@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Open+Sans|Titillium+Web');
+$global-bg-color: rgba(158,
+157,
+159,
+.88);
+$calcullator-bg-color: #dfd8d0;
+$normal-button: rgba(0,
+0,
+0,
+.91);
+$special-button: rgba(255,
+70,
+70,
+.91);
+$font-color: whitesmoke;
+$showBlock-bg-color: #c3c2ab;
+$link-color: rgba(50,
+221,
+205,
+.89);
+body {
+    background-color: $global-bg-color;
+    box-sizing: border-box;
+    .project {
+        box-sizing: border-box;
+        #calculator {
+            border: 1.5px solid rgba(186, 186, 186, .93);
+            border-radius: 20px;
+            width: 350px;
+            height: 450px;
+            margin: 0 auto;
+            background-color: $calcullator-bg-color;
+            box-shadow: 0 0 8px #C6C7C7 inset, 0 -0px 8px #000000 inset, 0px 0 18px 0 #000000;
+            #showBlock {
+                width: 85%;
+                background-color: $showBlock-bg-color;
+                margin: 0 auto;
+                border-radius: 15px;
+                overflow: hidden;
+                p {
+                    text-align: right;
+                    font-family: 'Titillium Web', sans-serif;
+                    margin-right: 8px;
+                    margin-top: 10px;
+                }
+                #show {
+                    font-size: 32px;
+                }
+                #history {
+                    position: relative;
+                    height: 10px;
+                    bottom: 17px;
+                    margin-right: 14px;
+                    color: #8b8b7b;
+                    font-size: 14px;
+                }
+            }
+            #buttonBlock {
+                display: inline-block;
+                position: relative;
+                text-align: center;
+                margin-top: 30px;
+                button {
+                    font-weight: bolder;
+                    color: $font-color;
+                    font-size: 16px;
+                    text-decoration: none;
+                    outline: none;
+                    height: 40px;
+                    width: 50px;
+                    border-radius: 8px;
+                    margin-right: 8px;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                    background-color: $normal-button;
+                    font-family: 'Architects Daughter', cursive;
+                }
+                #zeroButton {
+                    margin-left: -68px;
+                    width: 130px;
+                }
+                #equalButton {
+                    position: absolute;
+                    left: 73%;
+                    bottom: 0;
+                    width: 52px;
+                    height: 90px;
+                    z-index: 10;
+                }
+                .special {
+                    background-color: $special-button;
+                }
+            }
+            #title {
+                margin-top: 5px;
+                margin-bottom: 5px;
+                font-family: 'Architects Daughter', cursive;
+                text-align: center;
+            }
+        }
+        #information {
+            padding-top: 20px;
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            font-family: 'Architects Daughter', cursive;
+            font-size: 22px;
+            a,
+            a:active,
+            a:hover,
+            a:visited {
+                outline: none;
+                text-decoration: none;
+                color: $link-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="guchenghao">
+        <meta name="description" content="A simple Calculator">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./public/calculate.min.css" media="screen" title="no title">
+    </head>
+
+    <body>
+        <div class="project">
+
+            <div id="calculator">
+                <h4 id="title">JAVASCRIPT CALCULATOR</h4>
+                <div id="showBlock">
+                    <div id="show">
+                        <p id="answer">0</p>
+                    </div>
+                    <div>
+                        <p id="history">0</p>
+                    </div>
+                </div>
+                <div id="buttonBlock">
+                    <button class='special' value='ac'>AC</button>
+                    <button class='special' value='ce'>CE</button>
+                    <button value='/'>&divide;</button>
+                    <button value='*'>x</button>
+
+                    <button value='7'>7</button>
+                    <button value='8'>8</button>
+                    <button value='9'>9</button>
+                    <button value='-'>-</button>
+
+                    <button value='4'>4</button>
+                    <button value='5'>5</button>
+                    <button value='6'>6</button>
+                    <button value='+'>+</button>
+
+                    <button value='1'>1</button>
+                    <button value='2'>2</button>
+                    <button value='3'>3</button>
+                    <button class='invisible'>N</button>
+
+                    <button id='zeroButton' value='0'>0</button>
+                    <button value='.' id="spotButton">.</button>
+                    <button id='equalButton' value='='>=</button>
+                </div>
+            </div>
+            <footer id="information">
+                Designed & Coded by
+                <a href="https://github.com/guchenghao" target="_blank">
+                    guchenghao</a>
+            </footer>
+        </div>
+
+        <script src="./public/libs/jquery/dist/jquery.min.js" charset="utf-8"></script>
+        <script src="./public/calculate.js" charset="utf-8"></script>
+    </body>
+
+</html>
