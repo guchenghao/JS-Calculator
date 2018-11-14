@@ -1,4 +1,4 @@
 # JS-Calculator
 Calculator powered by JS
 
-![image-20181114100951353](../../../../../var/folders/t8/61bdw0rx5t960_w0pc_rqsw80000gn/T/abnerworks.Typora/image-20181114100951353.png)
+![image-20181114100951353](https://github.com/guchenghao/PictureWarehouse/blob/master/Jietu20181114-100855%402x.jpg)
